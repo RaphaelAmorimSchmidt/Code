@@ -6,4 +6,4 @@ print("meu nome é "+nome+" e minha idade é",idade)
 numero1 = int(input("primeiro número: "))
 numero2 = int(input("segundo número: "))
 soma = numero1 + numero2
-print("a soma é ",soma)
+print( 'a soma entre {} e {} é {}'.format( numero1, numero2, soma ) )
